@@ -16,8 +16,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v3
+    #   - name: Setup Terraform
+    #     uses: hashicorp/setup-terraform@v3
  
       # Step 2: Configure AWS credentials (LOGIN TO AWS)
       - name: Configure AWS credentials
