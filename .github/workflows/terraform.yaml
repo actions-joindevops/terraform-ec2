@@ -1,9 +1,9 @@
 name: Terraform CI/CD
 on: 
-    # workflow_dispatch:
-  push:
-    branches:
-      - main    # run only on main branch pushes
+    workflow_dispatch:
+#   push:
+#     branches:
+#       - main    # run only on main branch pushes
  
 jobs: 
   terraform:
