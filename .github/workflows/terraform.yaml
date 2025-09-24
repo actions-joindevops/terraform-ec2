@@ -5,7 +5,7 @@ on:
     branches:
       - main    # run only on main branch pushes
 
-jobs:
+jobs: 
   terraform:
     name: Terraform Workflow
     #runs-on: ubuntu-latest
